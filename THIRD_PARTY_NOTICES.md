@@ -1,6 +1,6 @@
 # Third-party artwork
 
-Technology icons in `assets/icons/` are from [Skill Icons](https://github.com/tandpfun/skill-icons) by tandpfun. Dark tile backgrounds have been adjusted to match this profile's navy palette. Language and product names belong to their respective owners.
+Technology icons in `assets/icons/` and embedded in `assets/toolkit.svg` are from [Skill Icons](https://github.com/tandpfun/skill-icons) by tandpfun. Dark tile backgrounds have been adjusted to match this profile's navy palette. Language and product names belong to their respective owners.
 
 The following license applies to the Skill Icons artwork:
 
@@ -27,3 +27,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
