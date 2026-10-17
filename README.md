@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/alexaa1212ss/game/main/.github/assets/profile-header.svg" alt="alexaa1212ss — Software developer. Game systems, developer tooling, automation." width="100%">
+  <img src="assets/profile-header.svg" alt="alexaa1212ss — Software developer. Game systems, developer tooling, automation." width="100%">
 </p>
 
 <p align="center">
@@ -7,56 +7,124 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/alexaa1212ss/game">Featured project</a>
+  <a href="https://github.com/alexaa1212ss?tab=repositories">Explore my repositories</a>
   &nbsp; · &nbsp;
-  <a href="https://github.com/alexaa1212ss/game/blob/main/docs/ENGINEERING.md">Engineering</a>
+  <a href="https://github.com/alexaa1212ss/game">Cavegame Reborn</a>
   &nbsp; · &nbsp;
-  <a href="https://github.com/alexaa1212ss?tab=repositories">Repositories</a>
+  <a href="https://github.com/alexaa1212ss/game/blob/main/docs/ENGINEERING.md">Engineering notes</a>
+</p>
+
+<p align="center">
+  <sub>Explore the sections below ↓</sub>
 </p>
 
 ---
 
-### About me
+<details>
+<summary><h3>👋 About me</h3></summary>
 
-I'm a software developer interested in how interactive software works from the protocol layer through the player experience. My work spans JavaScript tooling, game systems, Windows distribution, and automation.
+I'm a software developer interested in how interactive software works from the protocol layer through the player experience.
 
-I enjoy solving problems that connect different layers: encoding network packets, protecting update integrity, building installers, and turning release steps into repeatable checks.
+My toolkit spans web development, systems languages, runtime tooling, and automation across Windows, Linux, and iOS. I enjoy connecting the layers: understanding a protocol, building a usable client, and making the release process repeatable.
 
-### Languages & tools
+**Current focus:** Cavegame Reborn — game systems, Windows player delivery, and verified updates.
 
-| Area | Toolkit |
-| :--- | :--- |
-| Web | JavaScript · HTML · CSS |
-| Systems | C · C++ · Rust · Go |
-| Runtime & automation | Node.js · PowerShell |
-| Development platforms | Windows · Linux · iOS |
-| Project tooling | GitHub Actions · WiX · WebSocket · JSON |
+</details>
 
-### Featured project · Cavegame Reborn
+<details open>
+<summary><h3>🧰 Languages &amp; tools</h3></summary>
+
+#### Languages
+
+<p>
+  <img src="assets/icons/javascript.svg" width="48" height="48" alt="JavaScript" title="JavaScript">
+  <img src="assets/icons/html.svg" width="48" height="48" alt="HTML" title="HTML">
+  <img src="assets/icons/css.svg" width="48" height="48" alt="CSS" title="CSS">
+  <img src="assets/icons/c.svg" width="48" height="48" alt="C" title="C">
+  <img src="assets/icons/cpp.svg" width="48" height="48" alt="C++" title="C++">
+  <img src="assets/icons/rust.svg" width="48" height="48" alt="Rust" title="Rust">
+  <img src="assets/icons/go.svg" width="48" height="48" alt="Go" title="Go">
+</p>
+
+JavaScript · HTML · CSS · C · C++ · Rust · Go
+
+#### Runtime & automation
+
+<p>
+  <img src="assets/icons/nodejs.svg" width="48" height="48" alt="Node.js" title="Node.js">
+  <img src="assets/icons/powershell.svg" width="48" height="48" alt="PowerShell" title="PowerShell">
+  <img src="assets/icons/githubactions.svg" width="48" height="48" alt="GitHub Actions" title="GitHub Actions">
+  <img src="assets/icons/github.svg" width="48" height="48" alt="GitHub" title="GitHub">
+</p>
+
+Node.js · PowerShell · GitHub Actions · GitHub
+
+#### Platforms
+
+<p>
+  <img src="assets/icons/windows.svg" width="48" height="48" alt="Windows" title="Windows">
+  <img src="assets/icons/linux.svg" width="48" height="48" alt="Linux" title="Linux">
+  <img src="assets/icons/apple.svg" width="48" height="48" alt="Apple / iOS" title="Apple / iOS">
+</p>
+
+Windows · Linux · iOS
+
+**Also in my project toolkit:** WiX installer tooling · WebSocket · JSON · Ed25519 signatures · SHA256 verification
+
+</details>
+
+<details>
+<summary><h3>⛏️ Featured project — Cavegame Reborn</h3></summary>
 
 <a href="https://github.com/alexaa1212ss/game">
-  <img src="https://raw.githubusercontent.com/alexaa1212ss/game/main/.github/assets/cavegame-header.svg" alt="Cavegame Reborn — Windows player, signed updates, automated releases" width="100%">
+  <img src="assets/cavegame-header.svg" alt="Cavegame Reborn — Windows player, signed updates, automated releases" width="100%">
 </a>
 
 A Windows game player and release pipeline that brings together binary protocol tooling, player identity, verified updates, and installer automation.
 
-- **Protocol tooling:** schema-driven JavaScript encoding and decoding, bounded buffers, and cached writers.
-- **Player delivery:** a per-user Windows MSI generated with Node.js and WiX.
-- **Update integrity:** Ed25519 release signatures and SHA256 file verification.
-- **Release checks:** native launcher startup, player login, protocol movement, update, and identity persistence checks.
+| Part of the project | What it does |
+| :--- | :--- |
+| Binary protocol | Schema-driven JavaScript encoding and decoding, bounded buffers, and cached writers. |
+| Windows player delivery | A per-user MSI generated with Node.js and WiX. |
+| Update integrity | Ed25519 release signatures and SHA256 verification of files and archives. |
+| Release automation | Native launcher, player login, protocol movement, update, and identity persistence checks. |
 
-[Explore the repository →](https://github.com/alexaa1212ss/game) &nbsp; [Read the engineering overview →](https://github.com/alexaa1212ss/game/blob/main/docs/ENGINEERING.md)
+[Explore the repository →](https://github.com/alexaa1212ss/game) &nbsp; [Read the engineering overview →](https://github.com/alexaa1212ss/game/blob/main/docs/ENGINEERING.md) &nbsp; [Latest release →](https://github.com/alexaa1212ss/game/releases/latest)
 
-### How I approach development
+Cavegame Reborn is an evolving alpha. The repository documents hosting, signing, and verification limitations alongside the implementation.
 
-**Understand the system.** Follow the data, read the implementation, and make assumptions explicit.
+</details>
 
-**Build for the user.** Make installation, recovery, and everyday use understandable.
+<details>
+<summary><h3>⚙️ Build notes &amp; how I work</h3></summary>
 
-**Verify the behavior.** Automate meaningful checks and document the limits of the evidence.
+#### Understand the system
+
+Follow the data, read the implementation, and make assumptions explicit. I like working through how protocols, runtimes, and user-facing behavior fit together.
+
+#### Build for the user
+
+Make installation, recovery, and everyday use understandable. A feature includes the path people take to install it and keep using it.
+
+#### Verify the behavior
+
+Automate meaningful checks, preserve useful diagnostics, and document what still needs hands-on verification.
+
+**Code to explore:**
+
+- [Binary protocol codec](https://github.com/alexaa1212ss/game/blob/main/build/protocol-codec.mjs)
+- [Windows installer generator](https://github.com/alexaa1212ss/game/blob/main/build/make-player-installer.mjs)
+- [Installed-player acceptance checks](https://github.com/alexaa1212ss/game/blob/main/build/ci-player-acceptance.mjs)
+- [Windows release pipeline](https://github.com/alexaa1212ss/game/blob/main/.github/workflows/player-release.yml)
+
+</details>
 
 ---
 
 <p align="center">
-  <sub>Explore · Build · Refine</sub>
+  <a href="https://github.com/alexaa1212ss"><strong>Find my work on GitHub →</strong></a>
+</p>
+
+<p align="center">
+  <sub>Explore · Build · Refine &nbsp; | &nbsp; Icons by <a href="https://github.com/tandpfun/skill-icons">Skill Icons</a></sub>
 </p>
